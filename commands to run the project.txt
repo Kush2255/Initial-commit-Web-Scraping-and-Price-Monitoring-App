@@ -1,0 +1,5 @@
+open cmd
+
+cd "C:\Users\saray\OneDrive\Desktop\-Web-Scraping-and-Price-Monitoring-App"
+
+python scraper.py
