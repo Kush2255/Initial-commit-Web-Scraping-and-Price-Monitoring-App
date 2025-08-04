@@ -1,34 +1,50 @@
-######  Web Scraping and Price Monitoring App #########
-# Amazon + Flipkart Price Tracker with GUI, Alerts, and Scheduler
+🛒 Amazon & Flipkart Price Tracker with GUI, Alerts, and Scheduler
+A powerful Python-based price monitoring app that tracks product prices on Amazon and Flipkart, sends email alerts for price drops, stores historical data, and features a simple desktop GUI built with Tkinter.
 
-This project is a Python-based price tracker that automatically scrapes product prices from Amazon and Flipkart using Selenium. It features:
+✨ Key Features
+🔍 Track Multiple Products
+Monitor prices from Amazon and Flipkart simultaneously.
 
-✅ A user-friendly Tkinter GUI  
-📉 Daily price tracking with schedule support  
-📬 Email alerts when price drops below a threshold  
-📊 SQLite/MySQL storage & optional Excel export  
-🖥️ Designed for Windows (Python 3.11+)
+⏰ Daily Scheduled Scraping
+Automatically check prices at set intervals using the built-in scheduler.
 
----
+✉️ Email Notifications
+Get instant alerts when prices fall below your desired threshold.
 
-## 📦 Features
+📊 Data Storage & Export
+Store price history in MySQL or SQLite, with optional Excel export.
 
-- 🔍 Track prices of multiple Amazon & Flipkart products
-- ⏰ Run manually via GUI or automatically using a scheduler
-- ✉️ Send email notifications if prices fall below a set threshold
-- 🗃️ Store price history in SQLite or export to Excel
-- 🧠 Error-handling & logging included
-- 🖱️ Click-to-run + Background auto-run supported
+🖥️ GUI Interface
+Add product URLs, set price limits, and run the tracker with just a click.
 
----
+⚙️ Designed for Windows (Python 3.11+)
 
-## 🖼️ GUI Preview
+🖼️ GUI Overview
+The GUI allows you to:
 
-A Tkinter-based GUI allows:
-- Input product URLs (Amazon or Flipkart)
-- Set threshold prices
-- Start scraping manually
-- See “Scraping Done” or “Email Sent” message
-- Schedule automatic scraping
+🔗 Enter Amazon or Flipkart product URLs
 
+💸 Set target price thresholds
 
+▶️ Start scraping manually
+
+✅ Get feedback: "Scraping Done" or "Email Sent"
+
+📅 Schedule background scraping jobs
+
+📁 Project Highlights
+Component	Description
+Frontend	Tkinter GUI for ease of use
+Backend	Selenium-based web scraper
+Database	MySQL / SQLite integration for storing data
+Alerts	Email notifications via SMTP
+Scheduler	Auto-run with schedule module or CRON
+
+✅ Requirements
+Python 3.11+
+
+Google Chrome browser
+
+MySQL or SQLite
+
+Required Python packages (auto-installed via pip install -r requirements.txt)
